@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+#card{
+  margin:5rem;
+  /* margin-left: 40%; */
+  position: relative;
+  left:35%;
+}
+
+@media screen and (max-width: 600px) {
+  #card{position: relative;
+  right:75%;
+  left:0%;
+  margin:0rem;
+  margin-left: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+}
